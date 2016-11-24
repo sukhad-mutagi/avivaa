@@ -1,0 +1,11 @@
+applications:
+- name: aviva
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  memory: 1024M
+  instances: 1
+  env:
+    SPRING_PROFILES_ACTIVE: prod, cloudfoundry
+  host: aviva
+  disk_quota: 1024M
+  services:
+  - avivaDb

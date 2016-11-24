@@ -1,0 +1,32 @@
+{
+  "name": "font-awesome",
+  "description": "Font Awesome",
+  "keywords": [],
+  "homepage": "http://fontawesome.io",
+  "dependencies": {},
+  "devDependencies": {},
+  "license": [
+    "OFL-1.1",
+    "MIT",
+    "CC-BY-3.0"
+  ],
+  "main": [
+    "less/font-awesome.less",
+    "scss/font-awesome.scss"
+  ],
+  "ignore": [
+    "*/.*",
+    "*.json",
+    "src",
+    "*.yml",
+    "Gemfile",
+    "Gemfile.lock",
+    "*.md"
+  ],
+  "_source": "nexus+http://10.102.22.60:8081/repository/bower-group/font-awesome",
+  "_target": "^v4.6.3",
+  "_release": "v4.6.3",
+  "version": "v4.6.3",
+  "_originalSource": "font-awesome",
+  "_direct": true
+}

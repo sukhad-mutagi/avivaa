@@ -1,0 +1,748 @@
+button{
+  font-size: 14px !important;
+}
+.fourthh3{
+  padding: 10px;
+}
+.fourthh4{
+  padding: 0 0 0 10px;
+}
+		.breadcrumb-triangular {
+      margin-top: 15px;
+			overflow: hidden;
+			font: 17px Helvetica, Arial, Sans-Serif;
+			padding: 0px;
+			border: 1px solid #CCC;
+			width: 100%;
+      font-weight: bold;
+		}
+		
+		.breadcrumb-triangular li {
+	    display: table-cell;
+		}
+		/*increase padding to fix size*/
+		
+		.breadcrumb-triangular li a {
+			color: black;
+			text-decoration: none;
+			padding: 25px 0 25px 5em;
+			/*change background color*/
+			background: white;
+			/* fallback color */
+			/*background: hsla(34, 85%, 35%, 1);*/
+			position: relative;
+			display: block;
+		}
+		
+		.breadcrumb-triangular li a:after {
+			content: " ";
+			display: block;
+			width: 0;
+			height: 0;
+			border-top: 50px solid transparent;
+			border-bottom: 50px solid transparent;
+			border-left: 30px solid white;
+			position: absolute;
+			top: 50%;
+			margin-top: -50px;
+			left: 100%;
+			z-index: 2;
+		}
+		
+		.breadcrumb-triangular li a:before {
+			content: " ";
+			display: block;
+			width: 0;
+			height: 0;
+			border-top: 50px solid transparent;
+			border-bottom: 50px solid transparent;
+			border-left: 30px solid #CCC;
+			position: absolute;
+			top: 50%;
+			margin-top: -50px;
+			margin-left: 1px;
+			left: 100%;
+			z-index: 1;
+		}
+		
+
+    .breadcrumb-triangular li:nth-child(1) > a > span.stage, .stage
+    {
+      	left: 5em;
+    }
+     .breadcrumb-triangular li:nth-child(4) > a > span.stage, .stage
+    {
+      	left: 5em;
+    }
+     .breadcrumb-triangular li:nth-child(5) > a > span.stage, .stage
+    {
+      	left: 5em;
+    }
+     .breadcrumb-triangular li:nth-child(6) > a > span.stage, .stage
+    {
+      	left: 4.5em;
+    }
+       .breadcrumb-triangular li:nth-child(2) > a > span.stage, .stage
+    {
+      	left: 6em;
+    }
+        .breadcrumb-triangular li:nth-child(3) > a > span.stage, .stage
+      {
+          left: 6em;
+      }
+
+		.breadcrumb-triangular li a:hover {
+			background: green;
+		}
+		
+		.breadcrumb-triangular li:nth-child(6) a {
+			padding-right: 38px;
+		}
+		
+		.breadcrumb-triangular li:nth-child(6) a:after {
+			border: none;
+		}
+		
+		.breadcrumb-triangular li:nth-child(6) a:before {
+			border: none;
+		}
+		
+		.breadcrumb-triangular li a:hover:after {
+			border-left-color: green !important;
+		}
+		
+		.breadcrumb-triangular .stage, .stage {
+			background: #e0e6e6;
+			text-align: center;
+			border: 1px solid black;
+			border-radius: 100%;
+			width: 20px;
+			height: 20px;
+			margin: 8px 0;
+			position: absolute;
+			top: 0.5em;
+			left: 5em;
+			display: inline-block;
+		}
+		
+		.breadcrumb-triangular .stageText {
+			position: relative;
+			top: 1em;
+			right: 2em;
+		}
+    
+
+     .breadcrumb-triangular  li:nth-child(6) > a > span.stageText
+      {
+         right: 1em;
+      }
+
+
+.header {
+  background-color: #103455;
+  margin-bottom: 0;
+  border: none;
+  border-radius: initial;
+}
+
+.header div:first-child {
+  margin: 0 0 0 -5px;
+}
+
+.logo-image {
+  margin-top: -10px;
+  width: 179px;
+}
+
+.settings {
+  color: white !important;
+  background-color: #103455 !important;
+}
+
+.hamSet {
+  background: white;
+  color: black !important;
+}
+
+.hamSet:hover {
+  background: none !important;
+}
+/*
+.footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #bfbfbf;
+}
+
+.adcLogoFooter {
+  margin: 5px 0 0 10px;
+  width: 50px;
+}
+
+.capgLogoFooter {
+  margin: 5px 10px 0 0;
+  width: 150px;
+  float: right;
+}*/
+
+.navli,
+.navli:hover,
+.navli:focus {
+  color: white !important;
+}
+
+header{
+  overflow: auto;
+  background:#ffd900;
+  /*color:#004fb6;*/
+}
+
+.wrapper {
+  
+}
+
+.logo {
+    padding: 0;
+    background: none;
+    float: left;
+    padding: 2em 3.125%;
+}
+.logo a{
+      background-image: url(../images/download.png);
+    height: 3.6em;
+    width: 15.9em;
+}
+a:link, a:visited {
+    color: #004fb6;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,79,182,.45);
+    word-wrap: break-word;
+}
+header h1 {
+      float: right;
+}
+footer {
+    margin-top: 6em;
+    background-color: #333;
+}
+.site-info{
+  margin-left: 70px;
+  padding: 20px;
+  display: inline-flex;
+    vertical-align: middle;
+}
+.site-info li{
+  border-left: 1px solid white;
+}
+.site-info li:first-child {
+    border-left: 0;
+}
+.site-info li a{
+  color: white;
+padding-right: 10px;
+margin-left: 10px;
+}
+.site-info li a i, 
+.retrieveQuote button i{
+  margin-left: 5px;
+}
+.copyright{
+      width: 23%;
+    float: right;
+    text-align: left;
+    color: white;
+    padding: 20px;
+}
+ul, li{
+  list-style-type: none;
+}
+.offerMessage{
+  margin-top: 10px;
+      padding: 15px;
+    font-size: 20px;
+    color: white;
+    background: #004fb6;
+}
+.retrieveQuote button{
+  margin-left: 20px;
+  color:#004fb6;
+  border-radius: inherit;
+  background:#e5edf8;
+}
+.retrieveQuote button:hover{
+  color: white !important;
+  background: #004fb6 !important;
+}
+.padleftZero{
+  padding-left: 0;
+  padding-right: 0;
+}
+.padrightzero{
+  padding-right: 0;
+}
+.centerarea{
+      border: 1px solid #d5d5d5;
+  padding-left: 0;
+  background-color: #f2faff;
+}
+.first{
+  margin: 0;
+    background: #e1e2e0;
+    padding: 10px;
+    /*margin-left: -15px;*/
+}
+.firstform{
+  padding-left: 15px;
+  margin-top: 15px;
+}
+.car, .car:hover{
+    font-size: 60px !important;
+    background: #007934 ! important;
+    color: white !important;
+    border-radius: inherit;
+}
+.secondcar{
+ background-color: #eaeaea !important;
+    color: #004fb6 !important;
+}
+.carul{
+  display: inline-flex;
+}
+.secondli{
+  margin-left: 25%;
+}
+.infopara{
+      text-align: center;
+    width: 130px;
+}
+.form2{
+  margin-bottom: 0;
+          border: 1px solid #d5d5d5;
+    background-color: white;
+    padding: 15px;
+}
+/*.form2::-moz-selection{
+  background-color: #f2faff;
+}*/
+.titlebtn{
+color: #004fb6 !important;
+    background: #d5d5d5;
+    border-radius: inherit;
+    width: 15%;
+    height: 45px;
+}
+.titlebtn:hover{
+   color: white !important;
+    background: #007934 !important;
+}
+.formwidth{
+  width: 60%;
+}
+
+.forminput{
+    margin-right: 3%;
+    width: 25%;
+}
+.biginput{
+  width: 30%;
+}
+.addbutton{
+  color: #004fb6;
+      border-radius: inherit;
+    background: #ffd900;
+    margin-top: 3%;
+}
+.addbutton i, .askbtn i, .nobtn i{
+  margin-left: 5px;
+}
+.addbutton:hover, .nobtn:hover{
+  color: white !important;
+  background-color: #004fb6 !important;
+}
+.para{
+  margin-top: 2%;
+}
+.conbutton{
+      margin: 0;
+   
+}
+.panelborder{
+  border-radius: inherit;
+}
+.backwhite{
+  background-color: white !important;
+}
+.titlenew{
+      padding: 10px;
+    font-size: 23px;
+}
+.titlenew i{
+  color: #004fb6;
+  margin-right: 5px;
+}
+.askbtn{
+      background-color: #e5edf8;
+    border-radius: inherit;
+    margin-top: 10%;
+    color: #004fb6;
+}
+.askbtn:hover{
+background-color: #004fb6 !important;
+color: white !important;
+}
+.footpad{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+.foothead{
+  margin-top: 10px;
+}
+.footfont{
+  font-size: 18px;
+}
+.footfont i{
+  float: right;
+      font-size: 24px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.connum{
+  font-size: 20px;
+}
+.daypad{
+      padding-top: 10px;
+    padding-bottom: 10px;
+}
+.float-right{
+  float: right !important;
+}
+.parafont{
+  font-size: 12px;
+}
+.pdf{
+  margin-left: 5px;
+  color: red;
+}
+.tick{
+  color: green;
+    font-size: 18px;
+    margin-right: 14px;
+}
+.ratimg{
+  max-width: 75%;
+}
+.moreinfo{
+      font-weight: bold;
+    text-decoration: underline !important;
+}
+.morepara{
+      margin-top: 10px;
+    margin-bottom: 0;
+}
+.car2, .car2:hover{
+  font-size: 20px !important;
+}
+.car2mar{
+  margin-left: 15px;
+}
+.numplate{
+  padding-left: 25px;
+      height: 57px;
+    width: 255px;
+    background: #ffd900;
+    font-weight: bold;
+    font-size: 40px;
+    background-image: url(../../images/vehicle-reg.png);
+        background-repeat: no-repeat;
+    background-position: left -3px;
+}
+.btnul, .btnul:hover{
+        color: white !important;
+    background-color: #007934 !important;
+    border-radius: inherit;
+    width: 66%;
+}
+.btnul2{
+      background-color: #d5d5d5 !important;
+    color: black !important;
+}
+.marlibott{
+  margin-bottom: 10px;
+}
+.rightmar{
+  margin-right: 10px;
+}
+.bullets{
+  padding-bottom: 10px;
+}
+.float-left{
+  float: left !important;
+}
+.float-left i{
+  margin-right: 5px;
+  margin-left: 0;
+}
+.martop{
+margin-top: 15px;
+}
+.btnw{
+  width: 24%;
+}
+.nobtn{
+    color: #004fb6;
+      border-radius: inherit;
+    margin-top: 3%;
+  background-color: #e5edf8;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+.noPadding{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 12px;
+}
+.heading-size{
+  
+  font-size: 14px;
+    /* font-weight: bold; */
+    font-weight: 500;
+}
+.phone-image{
+      display: block;
+    max-width: 85%;
+    height: auto;
+    /* margin-right: 16px; */
+    margin-left: -6px;
+}
+.offerMessage{
+  font-size: 12px;
+}
+.retrieveQuote button{
+  margin-left: 0px;
+}
+.titlebtn{
+      width: 35%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.addbutton{
+  font-size: 13px;
+}
+.conbutton{
+  float:none;
+}
+.centerarea{
+  border: none;
+
+  background-color: #fff;
+padding-left: 15px;
+padding-right: 15px;
+}
+.padrightzero{
+  margin-top: 10px;
+  padding-left: 15px;
+padding-right: 15px;
+}
+.copyright{
+  color: black;
+    text-align: center;
+    width: 100%;
+    background-color: #e5e5e5;
+}
+.secondli {
+    margin-left: 15%;
+}
+.forminput {
+      width: 32%;
+}
+.biginput {
+    width: 38%;
+}
+.numplate{
+  width: 225px;
+}
+.btnul, .btnul:hover{
+  font-size: 13px;
+  width: 100%;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+h1{
+      font-size: 40x;
+}
+.conbutton{
+  float:none;
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+
+.conbutton{
+  float:none;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+
+.conbutton{
+  float:none;
+}
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+.conbutton{
+  float:none;
+}
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+h1{
+      font-size: 25px;
+}
+}
+.contwidth{
+  width: 100%;
+}

@@ -1,0 +1,29 @@
+{
+  "generator-jhipster": {
+    "baseName": "aviva",
+    "packageName": "com.aviva",
+    "packageFolder": "com/aviva",
+    "serverPort": "8008",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "jhiPrefix": "cg",
+    "enableTranslation": false,
+    "jhipsterVersion": "3.4.2",
+    "rememberMeKey": "5b08d2664eec186f8396103b1ecf3d78343d800f"
+  }
+}
